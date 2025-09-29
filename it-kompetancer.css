@@ -1,0 +1,48 @@
+.start { display:flex;
+    justify-content: center;
+    font-style: italic;
+
+}
+.tekst{ display:flex;
+    justify-content: center;
+    font-style: italic;
+}
+
+.applab{
+    display:flex;
+    justify-content: center;
+}
+
+
+
+
+
+
+
+
+.topnav {
+  background-color: #8d1659;
+  overflow: hidden;
+}
+
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: rgba(204, 107, 159, 0.68);
+}
+
+
+.topnav a.active {
+  background-color: #b41b6a9f;
+  color: white;
+}

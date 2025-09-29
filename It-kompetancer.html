@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="da">
+<head>
+  <meta charset="UTF-8">
+  <title>Test</title>
+  <link rel="stylesheet" href="it-kompetancer.css">
+</head>
+<body>
+
+  <!-- Top navigation -->
+  <div class="topnav">
+    <a href="index.html">Nnenna</a>
+    <a class="active" href="it-kompetancer.html">It kompetancer</a>
+    <a href="Nielsbrock.html">Niels brock</a>
+  </div>
+
+  <!-- Første knap + tekst -->
+  <button onclick="myFunction()">click me</button>
+  <p id="afsnit">MÅ IKKE TRYKKES</p>
+
+  <!-- Din JavaScript-knap -->
+  <button id="button_A">Press me</button>
+  <h3 id="heading_A"></h3>
+
+
+<!--live tegnoptælining-->
+<input placeholder="Enter some text" name="name" />
+<p id="values"></p>
+
+<!-- tekst fra inputfelt-->
+<label for="name">Name (4 to 8 characters):</label>
+
+<input
+  type="text"
+  id="name"
+  name="name"
+  required
+  minlength="4"
+  maxlength="8"
+  size="10" />
+
+
+
+  <!-- Tekstsektion -->
+  <div class="start">
+    <h1>Hvad jeg har lært i IT</h1>
+  </div>
+
+
+  <div class="tekst">
+    <h4>
+      I IT har jeg lært at lave hjemmesider med HTML og CSS. Jeg kan oprette filer i Visual Studio Code og forbinde dem, så siden får både indhold og design. Jeg har lært at strukturere koden rigtigt, bruge klasser og id’er til styling og ændre farver, skrifttyper og baggrunde. Derudover har jeg arbejdet med Live Server, så jeg kan se mine ændringer med det samme.
+    </h4>
+  </div>
+
+  <!-- App Lab iframe -->
+  <div class="applab">
+    <iframe width="392" height="620" style="border: 0px;" src="https://studio.code.org/projects/applab/yNFr-GhtyJuVmFScPdxW9U5-YcUbRU3DeMdlxlsC-Cs/embed"></iframe>
+  </div>
+
+  <!-- JavaScript link nederst -->
+  <script src="button.js"></script>
+</body>
+</html>
+
+
+
